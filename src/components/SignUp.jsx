@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber'
 import { Suspense, useState } from 'react'
 import Dancer from '../models/Dancer'
 import Loader from './Loader'
+import { NavLink } from 'react-router-dom'
 
 const SignUp = () => {
 
@@ -23,7 +24,7 @@ const SignUp = () => {
             <div className="flex justify-center gap-4 lg:justify-around">
               <p className="text-white font-montserrat mt-2 lg:text-2xl">Already a member?</p>
               <p className="text-red-400 font-montserrat font-semibold mt-2 lg:text-2xl">
-                <a href="/">Log In</a>
+                <NavLink to="/">Log In</NavLink>
               </p>
             </div>
             <div className="flex justify-center flex-col">

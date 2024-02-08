@@ -1,7 +1,7 @@
 import User from "../assets/icons/User"
 import UnLock from "../assets/icons/UnLock"
 import avatar from "../assets/images/avatar.gif"
-
+import { NavLink } from "react-router-dom"
 
 const LogIn = () => {
   return (
@@ -41,10 +41,10 @@ const LogIn = () => {
         </div>
         <div className="flex gap-10 mt-4">
           <p className="text-xs text-white font-montserrat lg:text-xl">
-            <a href="/forgotpassword">Forgot your Password?</a>
+            <NavLink to="/forgotpassword">Forgot your Password?</NavLink>
           </p>
           <p className="text-xs text-red-400 font-semibold font-montserrat lg:text-xl">
-            <a href="/signup">Register</a>
+            <NavLink to="/signup">Register</NavLink>
           </p>
         </div>
         <div className="mt-6 flex justify">
