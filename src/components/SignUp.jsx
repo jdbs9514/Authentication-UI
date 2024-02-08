@@ -8,7 +8,6 @@ const SignUp = () => {
   const [currentAnimation, setCurrentAnimation] = useState('Dance')
 
   const handleFocus = () => setCurrentAnimation('Dance')
-  const handleBlur = () => {}
 
   return (
     <section className="bg-zinc-900 h-screen flex justify-center items-center mb-0">
