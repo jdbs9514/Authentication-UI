@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 
 const ForgotPassword = () => {
   return (
@@ -31,7 +32,7 @@ const ForgotPassword = () => {
             Already have a account?
           </p>
           <p className="text-xs text-red-400 font-semibold font-montserrat lg:text-xl">
-            <a href="/signup">Register</a>
+            <NavLink to="/signup">Register</NavLink>
           </p>
         </div>
         <div className="mt-6 flex justify">
