@@ -1,8 +1,40 @@
-# React + Vite
+# Authentication UI 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+If you're app need to create an user and them need to sign up, you need this template to can make it real.
 
-Currently, two official plugins are available:
+![](./src/assets/images/login.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Getting Started
+
+
+### Prerequisites
+
+
+* HTML/CSS
+* JavaScript
+* React.js
+* Tailwind Css
+* Vite.js
+* Three.js
+
+### Installation
+
+A step by step guide that will tell you how to get the development environment up and running.
+
+```
+$ npm install (Install node dependecies)
+$ npm run dev (Run server)
+```
+
+
+## Deployment
+
+[click here to check live version]()
+
+## Additional Documentation and Acknowledgments
+
+* Pinteres
+* tailwind
+* Drei
+* etc...
