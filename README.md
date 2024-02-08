@@ -30,7 +30,7 @@ $ npm run dev (Run server)
 
 ## Deployment
 
-[click here to check live version]()
+[click here to check live version](https://serene-cat-40df55.netlify.app/)
 
 ## Additional Documentation and Acknowledgments
 
