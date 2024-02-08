@@ -41,10 +41,10 @@ const LogIn = () => {
         </div>
         <div className="flex gap-10 mt-4">
           <p className="text-xs text-white font-montserrat lg:text-xl">
-            <a href="/forgot password">Forgot your Password?</a>
+            <a href="/forgotpassword">Forgot your Password?</a>
           </p>
           <p className="text-xs text-red-400 font-semibold font-montserrat lg:text-xl">
-            <a href="/sign up">Register</a>
+            <a href="/signup">Register</a>
           </p>
         </div>
         <div className="mt-6 flex justify">
